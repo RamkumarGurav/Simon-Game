@@ -1,13 +1,22 @@
-body {
+*,
+*::before,
+*::after {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  scroll-behavior: smooth;
+  background-image: url('https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/21/space-invaders-live-wallpaper/Space-Invaders-Wallpaper-Practicing-a-new-skill-tonight,-m-.jpg');
+  background-image: url('https://p4.wallpaperbetter.com/wallpaper/273/1019/631/space-galaxy-digital-art-digital-retro-theme-hd-wallpaper-preview.jpg');
+
+  
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
